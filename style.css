@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 1rem;
+    height: 95vh;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 2rem;
+}
+
+
+form label {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+}
+
+form input {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 1rem;
+    padding: 1rem;
+    max-height: 200vh;
+    background: none;
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    background-color: rgb(226, 254, 254);
+font-size: 1rem;
+}
+
+form button:hover{
+    background-color: rgb(135, 255, 255);
+
+    transition-duration: 0.4s;
+    transition: all 0.8s;
+
+
+}
+
+.main {
+    padding: 1rem;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    width: 80%;
+    margin: 1rem;
+    margin-bottom:1rem ;
+    background-color: rgb(226, 254, 254);
+    display: flex;
+    flex-wrap: wrap;
+   min-height:95vh;
+   max-height: 200vh;
+}
+
+
+.items {
+    margin: 1rem;
+    position: relative;
+    padding: 0.2rem 1rem;
+    font-size: 1.1rem;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    width: 20%;
+    height: 65vh;
+    background-color: azure;
+}
+.items span{
+    position: absolute;
+    right: 0.5rem;
+    top: 1px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+h5{
+    margin-top: 1rem;
+}
+
+h2{
+    margin-bottom: 1rem;
+}
